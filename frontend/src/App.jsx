@@ -1,6 +1,5 @@
-// import './App.css'
-import './index.css'
-import PersonalChat from './components/chatBot'
+import './App.css'
+import PersonalChat from './components/ChatBot.jsx'  // Changed from './components/chatBot'
 
 function App() {
   return (
