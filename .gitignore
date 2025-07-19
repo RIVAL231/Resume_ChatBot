@@ -1,0 +1,358 @@
+# =============================================================================
+# NODE.JS & NPM
+# =============================================================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Package lock files (uncomment the one you don't use)
+# package-lock.json  # If using yarn exclusively
+# yarn.lock  # If using npm exclusively
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# =============================================================================
+# ENVIRONMENT VARIABLES & SECRETS
+# =============================================================================
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.production
+.env.staging
+
+# API Keys and credentials
+.env.*
+*.key
+*.pem
+config/local.json
+config/production.json
+
+# =============================================================================
+# LOGS & DEBUGGING
+# =============================================================================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# =============================================================================
+# BUILD OUTPUT & CACHE
+# =============================================================================
+
+# Frontend build directories
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+frontend/.nuxt/
+frontend/.vuepress/dist/
+
+# Backend build directories
+backend/dist/
+backend/build/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.temp/
+
+# =============================================================================
+# FRONTEND SPECIFIC (React/Vite/Next.js)
+# =============================================================================
+
+# Vite
+frontend/.vite/
+sankalp_resume_bot/.vite/
+
+# Next.js
+.next/
+out/
+
+# React build
+build/
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# =============================================================================
+# BACKEND SPECIFIC (Node.js/Express)
+# =============================================================================
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# =============================================================================
+# DATABASE FILES
+# =============================================================================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Database backups
+*.backup
+*.bak
+
+# =============================================================================
+# DEPLOYMENT & CLOUD
+# =============================================================================
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
+
+# AWS
+.aws/
+
+# Heroku
+.heroku/
+
+# Docker
+.dockerignore
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+
+# MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# =============================================================================
+# EDITOR & IDE FILES
+# =============================================================================
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# TESTING
+# =============================================================================
+
+# Test coverage
+coverage/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jest
+jest.config.js
+__tests__/
+**/__tests__/
+**/*.test.js
+**/*.test.jsx
+**/*.test.ts
+**/*.test.tsx
+
+# =============================================================================
+# MISCELLANEOUS
+# =============================================================================
+
+# Runtime files
+*.tsbuildinfo
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Project specific temporary files
+tempCodeRunnerFile.js
+tempCodeRunnerFile.py
+*.temp.*
+*.tmp.*
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# =============================================================================
+# PROJECT SPECIFIC
+# =============================================================================
+
+# Your specific project files that should be ignored
+resume_data/processed/
+embeddings_output/
+*.vector
+*.embedding
+
+# AI/ML model files (if you have any)
+*.model
+*.pkl
+*.joblib
+models/
+
+# Large data files
+data/raw/
+data/processed/
+*.csv
+*.json.large
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# =============================================================================
+# FRONTEND PROJECT SPECIFIC PATHS
+# =============================================================================
+
+# React build files in sankalp_resume_bot
+sankalp_resume_bot/dist/
+sankalp_resume_bot/build/
+sankalp_resume_bot/.vite/
+
+# Frontend cache
+frontend/.cache/
+sankalp_resume_bot/.cache/
+
+# =============================================================================
+# BACKEND PROJECT SPECIFIC PATHS
+# =============================================================================
+
+# Backend uploads (if any)
+backend/uploads/
+backend/temp/
+
+# Backend logs
+backend/logs/
+backend/*.log

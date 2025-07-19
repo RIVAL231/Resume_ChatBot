@@ -1,0 +1,68 @@
+
+Sankalp Sharma
+Phone: +91 9616040112
+Email: sankalpsharma250@gmail.com
+GitHub: https://www.github.com/RIVAL231
+Portfolio: https://sankalpsharmame.vercel.app/
+LinkedIn: https://www.linkedin.com/in/sankalp-sharma-39446920b
+
+Education
+
+Vellore Institute of Technology, Vellore, India
+Bachelor of Technology in Computer Science with specialization in IoT
+Expected Graduation: May 2026
+CGPA: 8.94 / 10.00
+
+Achievements:
+- General Secretary at IET-VIT
+- Winner of SIH Internal Hackathon 2024
+- Top 10 AIR in ISC Examinations (Class XII)
+- Received scholarship of ₹4 lakhs
+- Winner, India-Inquizitive Inter-School Quiz Competition
+
+Experience
+
+HealthSutra Analytics
+Full Stack Developer and DevOps Intern
+Jan 2025 – Present
+- Automated WhatsApp and email workflows using n8n.
+- Processed user-submitted medical reports and delivered AI-generated smart reports.
+- Built a React + FastAPI user portal for patients and doctors, enabling sub-profiles, real-time status updates via WebSockets.
+- Used Docker & GitHub Actions for CI/CD; deployed on AWS EC2.
+- Used Supabase for authentication and MongoDB for user data.
+
+MedWander
+Full Stack Developer Intern
+Oct 2024 – Jan 2025
+- Redesigned key UI components for better responsiveness.
+- Implemented multilingual support via database pooling.
+- Web scraped and integrated large datasets.
+- Created Discord alerts for patient form submissions.
+
+Projects
+
+Echoed Words
+Stack: Next.js, MongoDB, Tailwind CSS
+- Dynamic poetry blog platform with features like posting, liking, commenting, and showcasing featured poems.
+- MongoDB backend for scalable storage of poems and user interactions.
+URL: https://echoedwords.sankalpsharma.me/
+
+FasalFix
+Stack: React.js, CNN Model, Tailwind CSS
+- Plant disease detection tool trained on Kaggle dataset.
+- Suggests preventive measures and medication to help farmers.
+- Selected for Smart India Hackathon national screening.
+URL: https://sih-plant-disease.vercel.app/
+
+VoxGuard
+Stack: FastAPI, Docker, EC2, React.js, GitHub Actions, TensorFlow/Keras
+- Voice authentication system to detect forged/tampered audio.
+- Users upload voice samples for real-time verification.
+- Deployed via Docker on AWS EC2, React frontend hosted on Vercel.
+URL: https://analyse.audioforensics.tech/
+
+Technical Skills
+
+Languages: JavaScript, Java, Python, C/C++
+Frameworks/Tools: Next.js, React.js, Express.js, Node.js, MongoDB, Tailwind CSS, GitHub, Vercel, MySQL, i18next, Docker, n8n, FastAPI, AWS
+Concepts: Git, REST APIs, Version Control, SEO, Web Scraping, Database Normalization, CI/CD
