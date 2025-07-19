@@ -193,7 +193,7 @@ export default function PersonalChat() {
     setLoading(true)
 
     try {
-      const responseRes = await fetch("http://localhost:3001/api/chat", {
+      const responseRes = await fetch("https://resume-chat-bot-alpha.vercel.app/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: currentInput }),
